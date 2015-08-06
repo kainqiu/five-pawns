@@ -11,8 +11,8 @@ gameServices.factory('User', function() {
 });
 
 gameServices.factory('Board', function() {
-  var board = function() {
-    this.size = 10;
+  var board = function(size) {
+    this.size = size;
   }
   return board;
 });
